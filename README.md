@@ -24,3 +24,5 @@ Each release uses the tag `<Product>-v<semantic-version>` and contains a PKG plu
 Feed schema 1: `schemaVersion`, `product`, `bundleIdentifier`, `version` (three numeric components), `build` (positive increasing integer), `minimumSystemVersion` (three numeric components), and an HTTPS `releaseURL` pointing to this repository's exact product/version release tag.
 
 The feeds contain no executable commands, installation scripts, credentials, user IDs, clipboard contents or configuration data.
+
+See [verification results](VERIFICATION.md) for test coverage and native-interaction limits.
