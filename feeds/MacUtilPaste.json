@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "product": "MacUtilPaste",
+  "bundleIdentifier": "local.macutilpaste.app",
+  "version": "1.8.3",
+  "build": 24,
+  "minimumSystemVersion": "14.0.0",
+  "releaseURL": "https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtilPaste-v1.8.3"
+}

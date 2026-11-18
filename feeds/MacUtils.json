@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "product": "MacUtils",
+  "bundleIdentifier": "local.macutils2.app",
+  "version": "1.14.3",
+  "build": 55,
+  "minimumSystemVersion": "14.0.0",
+  "releaseURL": "https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtils-v1.14.3"
+}
