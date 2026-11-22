@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "product": "MacUtilBar",
   "bundleIdentifier": "local.macutilbar.app",
-  "version": "1.0.2",
-  "build": 3,
+  "version": "1.1.0",
+  "build": 4,
   "minimumSystemVersion": "14.0.0",
-  "releaseURL": "https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtilBar-v1.0.2"
+  "releaseURL": "https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtilBar-v1.1.0"
 }
