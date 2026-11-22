@@ -32,3 +32,11 @@ Full Swift tests, universal release build, strict app and Finder extension code-
 | MacUtil · Bar | 1.1.0 / 4 | universal | 22 | 0 | `20df32f65bbaf6fa905d9f62f21008644d29e3a1` |
 
 Full Swift tests, universal release build, strict code-signature verification, and extracted PKG payload comparison passed. The PKG and SHA-256 file were downloaded through the GitHub API and compared byte-for-byte before publication. Collapse/reveal was measured from real window-server frames with a separate validation bundle ID; on the release host macOS currently shows no status items for `local.macutilbar.app` itself (a system menu-bar setting, documented in the release notes). Accessibility features (icon identification, moving, search panel) were not exercised with permission granted; installation and the icon-spacing write were not performed.
+
+## MacUtil · Bar 1.1.1 / 5 — 2026-11-22
+
+| Product | Version / build | Architecture | Swift tests | Environment skips | Source release commit |
+|---|---|---|---|---|---|
+| MacUtil · Bar | 1.1.1 / 5 | universal | 23 | 0 | `fd3bcb7c4eefdd3cb61f7a8e45426430c5014707` |
+
+Opens Settings on manual launch. Full Swift tests, universal release build, strict code-signature verification, and extracted PKG payload comparison passed; PKG and SHA-256 round-tripped byte-for-byte through the GitHub API. Manual launch, --background and reopen were checked with a validation bundle ID through LaunchServices; login-item launch and installation were not performed.
