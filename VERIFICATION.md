@@ -40,3 +40,11 @@ Full Swift tests, universal release build, strict code-signature verification, a
 | MacUtil · Bar | 1.1.1 / 5 | universal | 23 | 0 | `fd3bcb7c4eefdd3cb61f7a8e45426430c5014707` |
 
 Opens Settings on manual launch. Full Swift tests, universal release build, strict code-signature verification, and extracted PKG payload comparison passed; PKG and SHA-256 round-tripped byte-for-byte through the GitHub API. Manual launch, --background and reopen were checked with a validation bundle ID through LaunchServices; login-item launch and installation were not performed.
+
+## MacUtil · Bar 1.1.2 / 6 — 2026-11-22
+
+| Product | Version / build | Architecture | Swift tests | Environment skips | Source release commit |
+|---|---|---|---|---|---|
+| MacUtil · Bar | 1.1.2 / 6 | universal | 23 | 0 | `a635ac7c02ab7a15a8538ce69fe10f6f7e64b7bf` |
+
+Fixes settings and menu bar flashing. Full Swift tests, universal release build, strict code-signature verification, and extracted PKG payload comparison passed; PKG and SHA-256 round-tripped byte-for-byte through the GitHub API. With a validation bundle ID and the diagnostic icon list, 10 idle seconds produced no published state changes or status-item writes and no SwiftUI layout-cycle warnings. The icon list with real Accessibility permission and installation were not exercised.
