@@ -16,3 +16,11 @@ During publishing, transport failures were recovered by inspecting draft assets 
 Manual clicks in the actual settings UI, browser downloads and native installation/extension upgrade interactions were not performed. No installed apps, privacy permissions or user configuration/history were changed. Applications are ad-hoc signed development candidates; PKGs are unsigned and not notarized. Existing installations need one manual installation to gain update checking.
 
 MacUtilMouse remains design-only, without a Package.swift or application sources. Its local design documents now specify this update contract; no placeholder app, installer or live feed was published.
+
+## MacUtilRight 1.3.5 / 10 — 2026-11-22
+
+| Product | Version / build | Architecture | Swift tests | Environment skips | Source release commit |
+|---|---|---|---|---|---|
+| MacUtilRight | 1.3.5 / 10 | universal | 180 | 0 | `29f0176309fd64b74aec64e9929ce071c94c896d` |
+
+Full Swift tests, universal release build, strict app and Finder extension code-signature verification, and extracted PKG payload comparison passed. The PKG and SHA-256 file were downloaded through the GitHub API and compared byte-for-byte before publication. Launching a CLI agent from Finder through iTerm, and the Automation consent prompt, were not validated natively.
