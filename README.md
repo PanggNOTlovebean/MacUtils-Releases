@@ -10,10 +10,13 @@ These are development candidates: the applications are ad-hoc signed and the PKG
 
 | Product | Latest release | Feed | Architecture |
 |---|---|---|---|
-| MacUtilRight | [1.3.5](https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtilRight-v1.3.5) | `feeds/MacUtilRight.json` | Apple Silicon + Intel |
+| MacUtilMenu | [1.4.0](https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtilMenu-v1.4.0) | `feeds/MacUtilMenu.json` | Apple Silicon + Intel |
+| MacUtilRight (renamed MacUtilMenu) | [1.3.5](https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtilRight-v1.3.5) | `feeds/MacUtilRight.json` | Apple Silicon + Intel |
 | MacUtil · Paste | [1.8.3](https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtilPaste-v1.8.3) | `feeds/MacUtilPaste.json` | Apple Silicon |
 | MacUtil · Bar | [1.1.2](https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtilBar-v1.1.2) | `feeds/MacUtilBar.json` | Apple Silicon + Intel |
 | MacUtils | [1.14.3](https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtils-v1.14.3) | `feeds/MacUtils.json` | Apple Silicon |
+
+MacUtilRight was renamed MacUtilMenu in 1.4.0 with a new app identity. Its update check cannot see MacUtilMenu releases, so install MacUtilMenu 1.4.0 manually once; `feeds/MacUtilRight.json` stays at 1.3.5.
 
 MacUtilMouse is currently a design-only project and has no installer or live feed.
 

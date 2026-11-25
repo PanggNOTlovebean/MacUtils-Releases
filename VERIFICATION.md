@@ -48,3 +48,11 @@ Opens Settings on manual launch. Full Swift tests, universal release build, stri
 | MacUtil · Bar | 1.1.2 / 6 | universal | 23 | 0 | `a635ac7c02ab7a15a8538ce69fe10f6f7e64b7bf` |
 
 Fixes settings and menu bar flashing. Full Swift tests, universal release build, strict code-signature verification, and extracted PKG payload comparison passed; PKG and SHA-256 round-tripped byte-for-byte through the GitHub API. With a validation bundle ID and the diagnostic icon list, 10 idle seconds produced no published state changes or status-item writes and no SwiftUI layout-cycle warnings. The icon list with real Accessibility permission and installation were not exercised.
+
+## MacUtilMenu 1.4.0 / 11 — 2026-11-26
+
+| Product | Version / build | Architecture | Swift tests | Environment skips | Source release commit |
+|---|---|---|---|---|---|
+| MacUtilMenu | 1.4.0 / 11 | universal | 186 | 0 | `ee3f72a7be2d0882ef8cd95277ec615ce5d01e8c` |
+
+First release under the MacUtilMenu name (formerly MacUtilRight; new bundle identity `local.macutilmenu.app`). Full Swift tests, universal release build, strict app and Finder extension code-signature verification, and extracted PKG payload comparison passed. GitHub returned HTTP 500 and transport errors during publishing; the single matching draft was resumed, and both assets were downloaded through the GitHub API and compared byte-for-byte before publication. An anonymous download of the published PKG matched SHA-256 `9fe925a1927cd6b9d378b1800d476a518caccf1d2d01100f93d8b0d9d388a34b`. Launches through Ghostty, Warp, WezTerm, kitty and Alacritty, Finder clicks, the import button and PKG installation were not validated natively.

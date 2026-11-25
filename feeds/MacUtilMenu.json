@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "product": "MacUtilMenu",
+  "bundleIdentifier": "local.macutilmenu.app",
+  "version": "1.4.0",
+  "build": 11,
+  "minimumSystemVersion": "14.0.0",
+  "releaseURL": "https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtilMenu-v1.4.0"
+}
