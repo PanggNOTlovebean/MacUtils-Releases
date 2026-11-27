@@ -56,3 +56,11 @@ Fixes settings and menu bar flashing. Full Swift tests, universal release build,
 | MacUtilMenu | 1.4.0 / 11 | universal | 186 | 0 | `ee3f72a7be2d0882ef8cd95277ec615ce5d01e8c` |
 
 First release under the MacUtilMenu name (formerly MacUtilRight; new bundle identity `local.macutilmenu.app`). Full Swift tests, universal release build, strict app and Finder extension code-signature verification, and extracted PKG payload comparison passed. GitHub returned HTTP 500 and transport errors during publishing; the single matching draft was resumed, and both assets were downloaded through the GitHub API and compared byte-for-byte before publication. An anonymous download of the published PKG matched SHA-256 `9fe925a1927cd6b9d378b1800d476a518caccf1d2d01100f93d8b0d9d388a34b`. Launches through Ghostty, Warp, WezTerm, kitty and Alacritty, Finder clicks, the import button and PKG installation were not validated natively.
+
+## MacUtilMenu 1.4.1 / 12 — 2026-11-28
+
+| Product | Version / build | Architecture | Swift tests | Environment skips | Source release commit |
+|---|---|---|---|---|---|
+| MacUtilMenu | 1.4.1 / 12 | universal | 187 | 0 | `3d11e48b27ee996673077dd9ff410186bb6f7658` |
+
+Adds Google Antigravity as a desktop agent. Full Swift tests, universal release build, strict app and Finder extension code-signature verification, and extracted PKG payload comparison passed. The PKG and SHA-256 file were downloaded through the GitHub API and compared byte-for-byte before publication. Opening a folder in a real Antigravity installation, Finder clicks and PKG installation were not validated natively.

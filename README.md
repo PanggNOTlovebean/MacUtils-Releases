@@ -10,7 +10,7 @@ These are development candidates: the applications are ad-hoc signed and the PKG
 
 | Product | Latest release | Feed | Architecture |
 |---|---|---|---|
-| MacUtilMenu | [1.4.0](https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtilMenu-v1.4.0) | `feeds/MacUtilMenu.json` | Apple Silicon + Intel |
+| MacUtilMenu | [1.4.1](https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtilMenu-v1.4.1) | `feeds/MacUtilMenu.json` | Apple Silicon + Intel |
 | MacUtilRight (renamed MacUtilMenu) | [1.3.5](https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtilRight-v1.3.5) | `feeds/MacUtilRight.json` | Apple Silicon + Intel |
 | MacUtil · Paste | [1.8.3](https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtilPaste-v1.8.3) | `feeds/MacUtilPaste.json` | Apple Silicon |
 | MacUtil · Bar | [1.1.2](https://github.com/PanggNOTlovebean/MacUtils-Releases/releases/tag/MacUtilBar-v1.1.2) | `feeds/MacUtilBar.json` | Apple Silicon + Intel |
