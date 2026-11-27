@@ -64,3 +64,11 @@ First release under the MacUtilMenu name (formerly MacUtilRight; new bundle iden
 | MacUtilMenu | 1.4.1 / 12 | universal | 187 | 0 | `3d11e48b27ee996673077dd9ff410186bb6f7658` |
 
 Adds Google Antigravity as a desktop agent. Full Swift tests, universal release build, strict app and Finder extension code-signature verification, and extracted PKG payload comparison passed. The PKG and SHA-256 file were downloaded through the GitHub API and compared byte-for-byte before publication. Opening a folder in a real Antigravity installation, Finder clicks and PKG installation were not validated natively.
+
+## MacUtilMenu 1.4.2 / 13 — 2026-11-28
+
+| Product | Version / build | Architecture | Swift tests | Environment skips | Source release commit |
+|---|---|---|---|---|---|
+| MacUtilMenu | 1.4.2 / 13 | universal | 187 | 0 | `10f64619d22f9ebec6466a3ec3aa763837efbc5d` |
+
+Labels CLI agents as "CLI" (Claude Code CLI; CLI Agent) instead of 终端/命令行. Full Swift tests, universal release build, strict app and Finder extension code-signature verification, and extracted PKG payload comparison passed. The PKG and SHA-256 file were downloaded through the GitHub API and compared byte-for-byte before publication. The new labels were not viewed in Finder or Settings, and PKG installation was not validated natively.
